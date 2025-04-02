@@ -10,25 +10,12 @@ A CLI tool to streamline the creation of React projects, components, and hooks w
 
 ## Installation
 
-1. npm install -g latest-react-cli
+Install the CLI globally using npm:
+```bash
+npm install -g latest-react-cli
+```
 
-Clone the repository:
-   ```bash
-   git clone https://github.com/nikeshwarpandey/latest-react-cli.git
-   cd latest-react-cli
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Link the CLI globally:
-   ```bash
-   npm link
-   ```
-
-## Commands
+## Usage
 
 ### 1. Create a React Project
 ```bash
@@ -67,19 +54,11 @@ latest-react-cli create-hook <hookname>
   - **components/**: Directory for React components.
   - **hooks/**: Directory for custom hooks.
 
-## Development
-
-To contribute or modify the CLI:
-
-1. Make your changes in the `bin/cli.js` file.
-2. Test your changes locally:
-   ```bash
-   node bin/cli.js <command>
-   ```
-
 ## License
 
 This project is licensed under the ISC License.
+
+
 
 
 
