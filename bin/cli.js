@@ -81,7 +81,6 @@ program
     let targetDir;
     let fileContent;
 
-    // targetDir = path.join(process.cwd(), projectName, 'src', 'components',  name);
     targetDir = path.join(process.cwd(), 'src', 'components',  name);
         fileContent = {
           main: `

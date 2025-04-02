@@ -10,7 +10,9 @@ A CLI tool to streamline the creation of React projects, components, and hooks w
 
 ## Installation
 
-1. Clone the repository:
+1. npm install -g latest-react-cli
+
+Clone the repository:
    ```bash
    git clone https://github.com/nikeshwarpandey/latest-react-cli.git
    cd latest-react-cli
