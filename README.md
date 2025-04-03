@@ -1,5 +1,5 @@
 # Latest React CLI
-
+# https://www.npmjs.com/package/latest-react-cli
 A CLI tool to streamline the creation of React projects, components, and hooks with TypeScript and Jest.
 
 ## Features
@@ -8,13 +8,25 @@ A CLI tool to streamline the creation of React projects, components, and hooks w
 - **Generate Components**: Easily create React components with TypeScript and testing files.
 - **Generate Hooks**: Create custom React hooks with boilerplate code.
 
-## Installation
+Usage: cli [options] [command]
 
+Options:
+  -h, --help                            display help for command
+
+Commands:
+  create-project|crp <projectname>      Create react project with typescript and jest
+  create-component|crc <componentname>  Creating a component
+  create-hook|crh <hookname>            Create a hook
+  help [command]                        display help for command
+
+## Installation
+npm or npx
 Install the CLI globally using npm:
 ```bash
 npm install -g latest-react-cli
 ```
 
+ npm view latest-react-cli version
 ## Usage
 
 ### 1. Create a React Project

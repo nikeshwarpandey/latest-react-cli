@@ -9,6 +9,7 @@ const { program } = require("commander");
 //command 1: create project
 program
   .command("create-project <projectname>")
+  .alias("crp")
   .description("Create react project with typescript and jest")
   .action((projectName) => {
     const projectPath = path.join(process.cwd(), projectName);
@@ -76,6 +77,7 @@ program
   //command 4: create component
 program
 .command("create-component <componentname>")
+.alias("crc")
 .description("Creating a component")
 .action((name) => {
     let targetDir;
@@ -121,6 +123,7 @@ test('renders ${name} component', () => {
 //command 5: create
 program
   .command("create-hook <hookname>")
+  .alias("crh")
   .description("Create a hook")
   .action((name) => {
     targetDir = path.join(process.cwd(), 'src', 'hooks');
